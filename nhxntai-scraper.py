@@ -1,5 +1,6 @@
 # coding: utf-8
 '''
+nhentai.net scraper
 Author: Johnfarrell
 Usage:
   pip install -r requirements.txt
