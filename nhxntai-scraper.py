@@ -1,4 +1,19 @@
 # coding: utf-8
+'''
+Author: Johnfarrell
+Usage:
+  pip install -r requirements.txt
+  # default save_parent_dir: '.'
+  # default code_1: '214001'
+  python nhxntai-scraper.py [OPT: save_parent_dir] [OPT: code_1] [OPT: code_2] ...
+  
+requirements:
+  requests==2.18.4
+  lxml==4.2.1
+  numpy==1.14.3
+  pandas==0.23.0
+  beautifulsoup4==4.6.0
+'''
 import os
 import re
 import sys
