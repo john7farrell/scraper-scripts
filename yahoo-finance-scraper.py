@@ -1,4 +1,19 @@
 # coding: utf-8
+'''
+Author: Johnfarrell
+Usage:
+  pip install -r requirements.txt
+  #modify `code` variable in the script  
+  python yahoo-finance-scraper.py
+  
+requirements:
+  requests==2.18.4
+  lxml==4.2.1
+  numpy==1.14.3
+  pandas==0.23.0
+  beautifulsoup4==4.6.0
+'''
+
 import re
 import time
 import requests
